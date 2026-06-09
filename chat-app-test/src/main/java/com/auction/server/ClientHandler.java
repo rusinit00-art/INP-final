@@ -9,9 +9,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.function.Consumer;
 
-/**
- * Handles communication with a single connected client on a dedicated thread.
- */
+
 public class ClientHandler implements Runnable {
 
     private final Socket socket;

@@ -11,9 +11,6 @@ import javafx.scene.layout.HBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-/**
- * Simple login dialog to collect username and server IP before connecting.
- */
 public class LoginDialog {
 
     private String username;

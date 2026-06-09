@@ -9,10 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Console-based auction server. Listens on port 6000, manages auction state,
- * and broadcasts live bid updates to all connected clients.
- */
+
 public class AuctionServer {
 
     private static final String ITEM_NAME = "Vintage Watch";

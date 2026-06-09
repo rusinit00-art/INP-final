@@ -9,9 +9,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.function.Consumer;
 
-/**
- * Manages the TCP socket connection between the JavaFX client and the auction server.
- */
+
 public class AuctionConnection {
 
     private final String serverHost;

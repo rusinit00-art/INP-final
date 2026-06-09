@@ -1,8 +1,6 @@
 package com.auction.server;
 
-/**
- * Thread-safe shared auction state managed by the server.
- */
+
 public class AuctionState {
 
     private final String itemName;
@@ -39,9 +37,7 @@ public class AuctionState {
         return auctionOpen;
     }
 
-    /**
-     * Attempts to place a bid. Returns true if accepted, false if rejected.
-     */
+
     public synchronized boolean placeBid(String bidder, double amount) {
         if (!auctionOpen) {
             return false;
