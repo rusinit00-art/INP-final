@@ -1,0 +1,9 @@
+out/
+target/
+lib/javafx-sdk*/
+*.class
+*.jar
+compile-err.txt
+client-err.txt
+stderr.txt
+stdout.txt
