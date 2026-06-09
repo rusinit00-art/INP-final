@@ -24,7 +24,6 @@ public class ClientHandler implements Runnable {
         this.server = server;
         this.logger = logger;
     }
-
     public String getUsername() {
         return username;
     }
