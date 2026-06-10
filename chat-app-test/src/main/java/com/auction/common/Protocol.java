@@ -1,9 +1,5 @@
 package com.auction.common;
 
-/**
- * Text-based protocol for client-server communication.
- * Messages are newline-delimited strings.
- */
 public final class Protocol {
 
     public static final int PORT = 6000;
